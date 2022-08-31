@@ -1,0 +1,164 @@
+/* hex code storage  C2E6F2 */
+
+
+/* fonts! */
+
+/* twylight */
+@import url("//hello.myfonts.net/count/476b87");
+  
+@font-face {
+  font-family: twylight;
+  src: url('fonts/twylight/font.woff2') format('woff2'), url('fonts/twylight/font.woff') format('woff');
+}
+
+/* basteleur */
+@font-face {
+  font-family: basteleur;
+  src: url(fonts/basteleur-bold.woff);
+}
+
+/* crimson-pro-regular - latin */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/crimson-text/crimson-pro-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/crimson-text/crimson-pro-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/crimson-text/crimson-pro-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/crimson-text/crimson-pro-v20-latin-regular.svg#CrimsonPro') format('svg'); /* Legacy iOS */
+}
+
+/* crimson-pro-700 - latin */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/crimson-text/crimson-pro-v20-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/crimson-text/crimson-pro-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/crimson-text/crimson-pro-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/crimson-text/crimson-pro-v20-latin-700.svg#CrimsonPro') format('svg'); /* Legacy iOS */
+}
+
+/* crimson-pro-italic - latin */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/crimson-text/crimson-pro-v20-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/crimson-text/crimson-pro-v20-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/crimson-text/crimson-pro-v20-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('fonts/crimson-text/crimson-pro-v20-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/crimson-text/crimson-pro-v20-latin-italic.svg#CrimsonPro') format('svg'); /* Legacy iOS */
+}
+
+/* end fonts! */
+
+body {
+  background-color: black;
+  background-image: url("images/bg/bg-stars1.gif");
+  color: #C2E6F2;
+  font-family: 'Crimson Pro', serif;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.5em;
+  text-shadow: -1px -1px 3px black, 0px 0px 5px black, 1px 1px 2px black, 2px 2px 3px black;  /* horizontal distance, vertical distance, blur, colour */
+  color: #C2E6F2;
+}
+
+ul {
+  font-size: 1.5em;
+  text-shadow: -1px -1px 3px black, 0px 0px 5px black, 1px 1px 2px black, 2px 2px 3px black;  /* yes there are too many shadows no i don't care */
+  color: #C2E6F2;
+}
+
+#list {               /* bullet points are annoying */
+  padding-left: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 5em;
+  text-shadow: 2px 2px 5px black;  
+  font-family: 'basteleur', serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+a:link {                      /* unvisited link */
+  color: #00BBFF;
+}
+
+a:visited {                      /* visited link */
+  color: #0089BA;
+}
+
+a:hover {                     /* hover over a link */
+  color: hotpink;
+  text-shadow: 0px 0px 2px black, 0px 0px 5px #FF00EA;
+  font-size: 1.4em;
+}
+
+.p1 {
+  font-size: 1.4em;
+  /*font-family: 'basteleur', serif*/
+  font-family: 'twylight', serif
+}
+
+
+.twylight {
+	font-family: 'twylight', serif
+}
+	
+
+/* .p1 a:hover {
+  font-size: 1.22em;
+} */
+
+/* .webrings {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  border: 3px groove #25354D;
+  border-radius: 7px;
+  background-image:url("images/bg-stars3.gif");
+  color: #E1F0F5;
+  padding: 10px;
+} */
+
+.content { 
+  margin: auto;
+  width: 65%;
+  height: 90vh;
+  text-align: center;
+  border: 3px groove #113561;
+  border-radius: 15px;
+  background-image: url("images/bg/bg-stars2.gif");
+  color: #E1F0F5;
+  position: relative;
+  overflow: auto;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+
+
+
+
+
+
+
